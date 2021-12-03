@@ -2,8 +2,8 @@
   "name": "rto_do_list",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "index.js",
-  "scripts": {
+  "private": true,
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
