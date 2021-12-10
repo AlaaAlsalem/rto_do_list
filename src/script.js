@@ -3,13 +3,10 @@ export const addBtn = document.querySelector('.enter');
 export const listArr = JSON.parse(localStorage.getItem('todos')) || [];
 export const createlocalstorage = (array) => {
   const localStorageObject = {
-    description: 'hey',//inputBox.value,
+    description: inputBox.value,
     completed: false,
     index: array.length + 1,
   };
   array.push(localStorageObject);
   localStorage.setItem('todos', JSON.stringify(array));
 };
-export const DummyFunction = (a,b) =>{
-  return a+b
-}

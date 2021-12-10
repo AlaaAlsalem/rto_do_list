@@ -1,4 +1,3 @@
-
 import addTask from './__mocks__/addTask.js';
 import localStorageMock from './__mocks__/localStorage.js';
 
