@@ -1,6 +1,5 @@
 export const inputBox = document.querySelector('#add-bar');
 export const addBtn = document.querySelector('.enter');
-
 export const listArr = JSON.parse(localStorage.getItem('todos')) || [];
 export const createlocalstorage = (array) => {
   const localStorageObject = {
